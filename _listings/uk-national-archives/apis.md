@@ -12,11 +12,21 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Usage
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/usage/master/_listings/uk-national-archives/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Getty Images - Put Usage Batches
+  x-api-slug: v3usagebatchesid-put
+  description: Report usage of assets via a batch format..
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uk-national-archives.jpeg
+  humanURL: http://discovery.nationalarchives.gov.uk/SearchUI/api.htm
+  baseURL: https://api.gettyimages.com//
+  tags: Archives, Catalog, Government, History, General Data, Historical Data API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/usage/master/_listings/uk-national-archives/v3usagebatchesid-put-openapi.md
 x-common:
 - type: x-website
   url: http://discovery.nationalarchives.gov.uk/SearchUI/api.htm

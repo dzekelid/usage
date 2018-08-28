@@ -1,0 +1,356 @@
+{
+	"name": "Streadata.io API Gallery - Usage",
+	"description": "This is a repository of usage APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/usage.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://usage.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "3scale",
+			"x-api-slug": "3scale",
+			"description": "3scales API Management platform gives you the tools you need to take control of your API. Trusted by more customers than any other vendor.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg",
+			"humanURL": "http://3scale.net",
+			"baseURL": "https://su1.3scale.net//",
+			"tags": "Usage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/usage/master/_listings/3scale/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "SendGrid",
+			"x-api-slug": "sendgrid",
+			"description": "Delivering your transactional and marketing emails through the worlds largest cloud-based email delivery platform. Send with confidence.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg",
+			"humanURL": "http://sendgrid.com",
+			"baseURL": "https:///",
+			"tags": "Usage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/usage/master/_listings/sendgrid/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Twilio",
+			"x-api-slug": "twilio",
+			"description": "Cloud communications platform for building SMS, Voice & Messaging applications on an API built for global scale. Get started with a free trial.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg",
+			"humanURL": "http://www.twilio.com",
+			"baseURL": "https://api.twilio.com//2010-04-01/",
+			"tags": "Usage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/usage/master/_listings/twilio/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Tendril",
+			"x-api-slug": "tendril",
+			"description": "With more than a decade of expertise in energy and behavioral science, Tendril is applying its unique software platform to change the way energy products and services are marketed and consumed.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/257-tendril.jpg",
+			"humanURL": "http://www.tendrilinc.com/",
+			"baseURL": "https:///",
+			"tags": "Usage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/usage/master/_listings/tendril/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Instructure",
+			"x-api-slug": "instructure",
+			"description": "Instructure makes software that makes smarter people. Products include Canvas LMS, Bridge and Canvas Network.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg",
+			"humanURL": "http://instructure.com",
+			"baseURL": "https://canvas.instructure.com//api/v1",
+			"tags": "Usage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/usage/master/_listings/instructure/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "UK National Archives",
+			"x-api-slug": "uk-national-archives",
+			"description": "The National Archives (TNA) is a non-ministerial government department. Its parent department is the Department for Culture, Media and Sport of the United Kingdom of Great Britain and Northern Ireland. It is the official archive of the UK government and for England and Wales; and guardian of some of the nations most iconic documents, dating back more than 1,000 years. There are separate national archives for Scotland (the National Records of Scotland) and Northern Ireland (the Public Record Office of Northern Ireland).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uk-national-archives.jpeg",
+			"humanURL": "http://discovery.nationalarchives.gov.uk/SearchUI/api.htm",
+			"baseURL": "https://api.gettyimages.com//",
+			"tags": "Usage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/usage/master/_listings/uk-national-archives/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Snowball",
+			"x-api-slug": "aws-snowball",
+			"description": "Snowball is a petabyte-scale data transport solution that uses secure appliances totransfer large amounts of datainto and out of theAWS cloud. Using Snowball addresses common challenges with large-scale data transfers including high network costs, long transfer times, and security concerns. Transferring data with Snowball is simple, fast, secure, and can be as little as one-fifth the cost of high-speed Internet.With Snowball, you don&rsquo;t need to write any code or purchase any hardware to transfer your data. Simply create a job in the AWS Management Console and a Snowball appliance will be automatically shipped to you*. Once it arrives, attach the appliance to your local network, download and run the Snowball client to establish a connection, and then use the client to select the file directories that you want to transfer to the appliance. The client will then encrypt and transfer the files to the appliance at high speed. Once the transfer is complete and the appliance is ready to be returned, the E Ink shipping label will automatically update and you can track the job status viaAmazon Simple Notification Service (SNS), text messages, or directly in the Console.Snowball uses multiple layers of security designed to protect your data including tamper-resistant enclosures, 256-bit encryption, and an industry-standard Trusted Platform Module (TPM) designed to ensure both security and full chain-of-custody of your data. Once the data transfer job has been processed and verified, AWS performs a software erasure of the Snowball appliance.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSImportExportSnowball.png",
+			"humanURL": "https://aws.amazon.com/snowball/",
+			"baseURL": ":///",
+			"tags": "Usage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/usage/master/_listings/aws-snowball/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Cognito",
+			"x-api-slug": "aws-cognito",
+			"description": "Amazon Cognito lets you easily add user sign-up and sign-in to your mobile and web apps. With Amazon Cognito, you also have the options to authenticate users through social identity providers such as Facebook, Twitter, or Amazon, with SAML identity solutions, or by using your own identity system. In addition, Amazon Cognito enables you to save data locally on users devices, allowing your applications to work even when the devices are offline. You can then synchronize data across users devices so that their app experience remains consistent regardless of the device they use. With Amazon Cognito, you can focus on creating great app experiences instead of worrying about building, securing, and scaling a solution to handle user management, authentication, and sync across devices.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-cognito.png",
+			"humanURL": "https://aws.amazon.com/cognito/",
+			"baseURL": "https:///",
+			"tags": "Usage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/usage/master/_listings/aws-cognito/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Marketplace Metering Service",
+			"x-api-slug": "aws-marketplace-metering-service",
+			"description": "AWS Marketplace provides a new sales channel for ISVs and Consulting Partners to sell their solutions to AWS customers. We make it easy for customers to find, buy, deploy and manage software solutions, including SaaS, in a matter of minutes. AWS Marketplace sellers can use this API to submit usage data for custom usage dimensions.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-marketplace-icon.jpg",
+			"humanURL": "https://aws.amazon.com/marketplace/",
+			"baseURL": ":///",
+			"tags": "Usage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/usage/master/_listings/aws-marketplace-metering-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Billing API",
+			"x-api-slug": "azure-billing-api",
+			"description": "Use Azure Billing APIs to pull usage and resource data into your preferred data analysis tools. The Azure Resource Usage and RateCard APIs can help you accurately predict and manage your costs. The APIs are implemented as a Resource Provider and part of the family of APIs exposed by the Azure Resource Manager.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-billing-api.png",
+			"humanURL": "https://docs.microsoft.com/en-us/azure/billing/billing-usage-rate-card-overview",
+			"baseURL": "://management.azure.com//",
+			"tags": "Usage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/usage/master/_listings/azure-billing-api/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Storage",
+			"x-api-slug": "azure-storage",
+			"description": "Azure Storage offers non-relational data storage including Blob Storage, Table Storage, Queue Storage, and Files.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-storage.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/storage/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Usage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/usage/master/_listings/azure-storage/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Entertainment Express",
+			"x-api-slug": "entertainment-express",
+			"description": "Internet Video Archive (IVA) is a leading entertainment data company providing metadata, images and trailers/clips, for movie and TV content. With the launch of its award-winning Entertainment Express APIs, clients can easily access everything they need to create engaging content discovery experiences. By using Entertainment Express, clients can also connect to other services like movie showtimes and ticketing, content recommendations, content availability and TV channel line-ups. With over a million titles, episodes and over 150,000 videos available, IVA makes it easy for developers to integrate all the services they need at a very affordable price.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png",
+			"humanURL": "https://www.internetvideoarchive.com/",
+			"baseURL": "https://ee.iva-api.com//",
+			"tags": "Usage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/usage/master/_listings/entertainment-express/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "IBM Cloud",
+			"x-api-slug": "ibm-cloud",
+			"description": "The IBM Cloud has been built to help you solve problems and advance opportunities in a world flush with data. Whether it&rsquo;s data you possess, data outside your firewall, or data that&rsquo;s coming, the IBM Cloud helps you protect it, move it, integrate it and unlock intelligence from it &mdash; giving you what it takes to prevail in a competitive market.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28560-ibm-containers.jpg",
+			"humanURL": "https://www.ibm.com/cloud/",
+			"baseURL": "https://containers-api.ng.bluemix.net//v3",
+			"tags": "Usage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/usage/master/_listings/ibm-cloud/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Predix",
+			"x-api-slug": "predix",
+			"description": "Predix (IoT PaaS) helps you develop apps that connect people with industrial machines through analytics and data for better business outcomes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png",
+			"humanURL": "https://www.predix.io",
+			"baseURL": "https:////v1",
+			"tags": "Usage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/usage/master/_listings/predix/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "CollabNet",
+			"x-api-slug": "collabnet",
+			"description": "CollabNet is a software development and delivery solutions provider headquartered in South San Francisco, California.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28840-community-versionone-com.jpg",
+			"humanURL": "https://www.collab.net/",
+			"baseURL": "https:////ctfrest/foundation/v1",
+			"tags": "Usage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/usage/master/_listings/collabnet/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Plentymarkets",
+			"x-api-slug": "plentymarkets",
+			"description": "plentymarkets is an all-in-one e-commerce ERP solution, which combines a comprehensive stock management system with a versatile shop system and effortless multichannel sales. Thanks to comprehensive functions and interfaces that include all steps of the e-commerce value chain, you can use the cloud based software to completely automate all of your e-business processes as well as your companys own individual processes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png",
+			"humanURL": "http://www.plentymarkets.co.uk",
+			"baseURL": "https://example.com//",
+			"tags": "Usage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/usage/master/_listings/plentymarkets/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Usage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/usage/master/_listings/dezrez/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Xibo",
+			"x-api-slug": "xibo",
+			"description": "Xibo Digital Signage is a low-cost, high performance solution to launch your business, workplace or organisation into the future. Xibo doesn&rsquo;t just replicate print media, but actively increases engagement allowing you to deliver your message more effectively than ever before.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg",
+			"humanURL": "http://www.xibo.org.uk",
+			"baseURL": "https:////api",
+			"tags": "Usage",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/usage/master/_listings/xibo/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Usage",
+	"include": [
+		{
+			"name": "3scale",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/usage/master/_listings/3scale/apis.yaml"
+		},
+		{
+			"name": "SendGrid",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/usage/master/_listings/sendgrid/apis.yaml"
+		},
+		{
+			"name": "Twilio",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/usage/master/_listings/twilio/apis.yaml"
+		},
+		{
+			"name": "Tendril",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/usage/master/_listings/tendril/apis.yaml"
+		},
+		{
+			"name": "Instructure",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/usage/master/_listings/instructure/apis.yaml"
+		},
+		{
+			"name": "UK National Archives",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/usage/master/_listings/uk-national-archives/apis.yaml"
+		},
+		{
+			"name": "AWS Snowball",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/usage/master/_listings/aws-snowball/apis.yaml"
+		},
+		{
+			"name": "AWS Cognito",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/usage/master/_listings/aws-cognito/apis.yaml"
+		},
+		{
+			"name": "AWS Marketplace Metering Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/usage/master/_listings/aws-marketplace-metering-service/apis.yaml"
+		},
+		{
+			"name": "Azure Billing API",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/usage/master/_listings/azure-billing-api/apis.yaml"
+		},
+		{
+			"name": "Azure Storage",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/usage/master/_listings/azure-storage/apis.yaml"
+		},
+		{
+			"name": "Entertainment Express",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/usage/master/_listings/entertainment-express/apis.yaml"
+		},
+		{
+			"name": "IBM Cloud",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/usage/master/_listings/ibm-cloud/apis.yaml"
+		},
+		{
+			"name": "Predix",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/usage/master/_listings/predix/apis.yaml"
+		},
+		{
+			"name": "CollabNet",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/usage/master/_listings/collabnet/apis.yaml"
+		},
+		{
+			"name": "Plentymarkets",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/usage/master/_listings/plentymarkets/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/usage/master/_listings/dezrez/apis.yaml"
+		},
+		{
+			"name": "Xibo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/usage/master/_listings/xibo/apis.yaml"
+		}
+	]
+}
